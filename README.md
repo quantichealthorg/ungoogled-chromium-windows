@@ -1,4 +1,4 @@
-# ungoogled-chromium-windows
+# ungoogled-chromium-windows - QUANTIC EDITION
 
 Windows packaging for [ungoogled-chromium](//github.com/Eloston/ungoogled-chromium).
 
