@@ -178,6 +178,9 @@ def main():
         patch_bin_path=(source_tree / _PATCH_BIN_RELPATH)
     )
 
+    # Apply quantic patches
+    os.system("git.exe apply quantic\\0001-Add-branding.patch --reject --whitespace=fix --directory=" + source_tree)
+
     # Substitute domains
     domain_substitution.apply_substitution(
         _ROOT_DIR / 'ungoogled-chromium' / 'domain_regex.list',
