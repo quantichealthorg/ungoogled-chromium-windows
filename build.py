@@ -179,7 +179,7 @@ def main():
     )
 
     # Apply quantic patches
-    os.system("git.exe apply quantic\\0001-Add-branding.patch --reject --whitespace=fix --directory=" + source_tree)
+    os.system("git.exe apply quantic\\0001-Add-branding.patch --reject --whitespace=fix --directory=build\\src")
 
     # Substitute domains
     domain_substitution.apply_substitution(
