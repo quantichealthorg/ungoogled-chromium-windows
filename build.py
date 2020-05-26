@@ -178,8 +178,25 @@ def main():
         patch_bin_path=(source_tree / _PATCH_BIN_RELPATH)
     )
 
-    # Apply quantic patches
-    os.system("git.exe apply quantic\\0001-Add-branding.patch --reject --whitespace=fix --directory=build\\src")
+    #############
+    # Quantic
+    #############
+
+    get_logger().info('Applying Quantic patches')
+    
+    # Delete old theme folder
+    shutil.rmtree("build\\src\\chrome\\app\\theme\\chromium")
+    shutil.copytree("quantic\\theme", "build\\src\\chrome\\app\\theme\\chromium")
+
+    # String tables
+    shutil.copy("quantic\\chromium_strings.grd", "build\\src\\chrome\\app\\chromium_strings.grd")
+    shutil.copy("quantic\\settings_chromium_strings.grdp", "build\\src\\chrome\\app\\settings_chromium_strings.grdp")
+
+
+    get_logger().info('All applied!')
+
+
+
 
     # Substitute domains
     domain_substitution.apply_substitution(

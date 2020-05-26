@@ -1,0 +1,10 @@
+COMPANY_FULLNAME=The ehrdev Authors
+COMPANY_SHORTNAME=The ehrdev Authors
+PRODUCT_FULLNAME=ehrdev
+PRODUCT_SHORTNAME=ehrdev
+PRODUCT_INSTALLER_FULLNAME=ehrdev Installer
+PRODUCT_INSTALLER_SHORTNAME=ehrdev Installer
+COPYRIGHT=Copyright 2020 The ehrdev Authors. All rights reserved.
+MAC_BUNDLE_ID=org.ehrdev.ehrdev
+MAC_CREATOR_CODE=Cr24
+MAC_TEAM_ID=
