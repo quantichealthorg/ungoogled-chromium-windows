@@ -160,14 +160,14 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         EHRView
       </message>
       <if expr="is_win">
-        <message name="IDS_SXS_SHORTCUT_NAME" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_SXS_SHORTCUT_NAME" desc="Unused in Chromium builds" translateable="false">
         </message>
-        <message name="IDS_SHORTCUT_NAME_BETA" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_SHORTCUT_NAME_BETA" desc="Unused in Chromium builds" translateable="false">
         </message>
-        <message name="IDS_SHORTCUT_NAME_DEV" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_SHORTCUT_NAME_DEV" desc="Unused in Chromium builds" translateable="false">
         </message>
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
-          EHRView is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into EHRView.
+          EHRView is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Chromium.
         </message>
       </if>
       <if expr="chromeos">
@@ -178,11 +178,11 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
           EHRView OS
         </message>
       </if>
-      <message name="IDS_SHORT_PRODUCT_LOGO_ALT_TEXT" desc="Alt text for the EHRView logo image.">
+      <message name="IDS_SHORT_PRODUCT_LOGO_ALT_TEXT" desc="Alt text for the Chromium logo image.">
         EHRView logo
       </message>
-      <!-- Chrome enterprise logo won't be used in EHRView -->
-      <message name="IDS_PRODUCT_LOGO_ENTERPRISE_ALT_TEXT" desc="Alt text for the EHRView Enterprise logo image."/>
+      <!-- Chrome enterprise logo won't be used in Chromium -->
+      <message name="IDS_PRODUCT_LOGO_ENTERPRISE_ALT_TEXT" desc="Alt text for the Chromium Enterprise logo image."/>
       <if expr="is_win">
         <message name="IDS_SHORTCUT_NEW_WINDOW" desc="The text label of the New window shortcut context menu entry as of Windows 8">
           New window
@@ -227,10 +227,10 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         Copyright <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The EHRView Authors. All rights reserved.
       </message>
       <if expr="chromeos">
-        <message name="IDS_ABOUT_CROS_VERSION_LICENSE" desc="Additional text displayed beneath the EHRView open source URLs for Chrome OS.">
+        <message name="IDS_ABOUT_CROS_VERSION_LICENSE" desc="Additional text displayed beneath the Chromium open source URLs for Chrome OS.">
           EHRView OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>.
         </message>
-        <message name="IDS_ABOUT_CROS_WITH_LINUX_VERSION_LICENSE" desc="Additional text displayed beneath the EHRView open source URLs for Chrome OS when Crostini is installed.">
+        <message name="IDS_ABOUT_CROS_WITH_LINUX_VERSION_LICENSE" desc="Additional text displayed beneath the Chromium open source URLs for Chrome OS when Crostini is installed.">
           EHRView OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>, as is <ph name="BEGIN_LINK_LINUX_OSS">&lt;a target="_blank" href="$2"&gt;</ph>Linux (Beta)<ph name="END_LINK_LINUX_OSS">&lt;/a&gt;</ph>.
         </message>
         <message name="IDS_ABOUT_SAFETY_INFORMATION" desc="The safety label in the About box." translateable="false">
@@ -267,7 +267,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <message name="IDS_UNINSTALL_VERIFY" desc="Message to confirm user wants to uninstall">
           Are you sure you want to uninstall EHRView?
         </message>
-        <message name="IDS_UNINSTALL_CHROME" desc="The title of the EHRView uninstall dialog.">
+        <message name="IDS_UNINSTALL_CHROME" desc="The title of the Chromium uninstall dialog.">
           Uninstall EHRView
         </message>
       </if>
@@ -388,20 +388,20 @@ EHRView is unable to recover your settings.
       </if>
       <!-- Options Dialog -->
       <if expr="is_win">
-        <message name="IDS_SHORTCUT_TOOLTIP" desc="Text for the hover-on tooltip for the EHRView shortcuts.">
+        <message name="IDS_SHORTCUT_TOOLTIP" desc="Text for the hover-on tooltip for the Chromium shortcuts.">
           Access the Internet
         </message>
         <message name="IDS_UNINSTALL_DELETE_PROFILE" desc="Text to show user to ask whether to delete all the profile data also during uninstallation.">
           Also delete your browsing data?
         </message>
-        <message name="IDS_UNINSTALL_SET_DEFAULT_BROWSER" desc="Text to ask whether to set another browser as default when EHRView is uninstalled.">
+        <message name="IDS_UNINSTALL_SET_DEFAULT_BROWSER" desc="Text to ask whether to set another browser as default when Chromium is uninstalled.">
           Change default browser to:
         </message>
         <message name="IDS_UNINSTALL_BUTTON_TEXT" desc="Label for uninstall button on Uninstall confirmation dialog.">
           Uninstall
         </message>
       </if>
-      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when EHRView is not the current default browser.">
+      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Chromium is not the current default browser.">
         EHRView isn't your default browser
       </message>
       <if expr="is_win">
@@ -506,7 +506,7 @@ EHRView is unable to recover your settings.
       </if>
 
       <!-- chrome://settings/extensions page -->
-      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that EHRView cannot prevent extensions from recording history in incognito mode. Displayed in extensions management UI after an extension is selected to be run in incognito mode.">
+      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Chromium cannot prevent extensions from recording history in incognito mode. Displayed in extensions management UI after an extension is selected to be run in incognito mode.">
         Warning: EHRView cannot prevent extensions from recording your browsing history. To disable this extension in incognito mode, unselect this option.
       </message>
       <message name="IDS_EXTENSIONS_UNINSTALL" desc="The link for uninstalling extensions.">
@@ -643,7 +643,7 @@ EHRView is unable to recover your settings.
            Note: these strings should only be used by Google Chrome, but
                  omitting them brings up a hash collision error. -->
       <if expr="is_win">
-        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Chrome Cleanup dialog that EHRView browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is EHRView; we are asking, Do you want EHRView to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Chrome Cleanup section of the Settings page, under 'Remove harmful software' title. Preferrably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
+        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Chrome Cleanup dialog that Chromium browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is Chromium; we are asking, Do you want Chromium to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Chrome Cleanup section of the Settings page, under 'Remove harmful software' title. Preferrably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
           There's harmful software on your computer. EHRView can remove it, restore your settings, and disable extensions to make your browser work normally again.
         </message>
       </if>
@@ -664,7 +664,7 @@ EHRView is unable to recover your settings.
         </message>
       </if>
       <if expr="chromeos">
-        <message name="IDS_SIGNIN_ERROR_SECONDARY_ACCOUNT_DISPLAY_SOURCE" desc="Context title shown in the notification header of sign-in error notification for EHRView OS Secondary Accounts.">
+        <message name="IDS_SIGNIN_ERROR_SECONDARY_ACCOUNT_DISPLAY_SOURCE" desc="Context title shown in the notification header of sign-in error notification for Chromium OS Secondary Accounts.">
           EHRView OS System
         </message>
         <message name="IDS_SYNC_PASSPHRASE_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sync error notification when the user needs to update their sync passphrase.">
@@ -695,23 +695,23 @@ EHRView is unable to recover your settings.
       </if>
 
       <!-- App shortcuts -->
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the EHRView Apps Start Menu folder name.">
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the Chromium Apps Start Menu folder name.">
         EHRView Apps
       </message>
       <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY" desc="Name for the Chrome Apps Start Menu folder name.">
         EHRView Apps
       </message>
       <if expr="is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA" desc="Unused in Chromium builds" translateable="false">
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV" desc="Unused in Chromium builds" translateable="false">
         </message>
       </if>
 
       <!-- Chrome OS OOBE Terms of Service screen-->
       <if expr="chromeos">
         <message name="IDS_TERMS_OF_SERVICE_SCREEN_SUBHEADING" desc="Subheading at the top of the Terms of Service screen.">
-          <ph name="DOMAIN">$1<ex>example.com</ex></ph> requires that you read and accept the following Terms of Service before using this device. These terms do not expand, modify or limit the EHRView OS Terms.
+          <ph name="DOMAIN">$1<ex>example.com</ex></ph> requires that you read and accept the following Terms of Service before using this device. These terms do not expand, modify or limit the Chromium OS Terms.
         </message>
       </if>
 
@@ -729,7 +729,7 @@ EHRView is unable to recover your settings.
       <!-- ProcessSingleton -->
       <if expr="is_linux or is_macosx">
         <message name="IDS_PROFILE_IN_USE_POSIX" desc="Message shown when the browser cannot start because the profile is in use on a different host.">
-          The profile appears to be in use by another EHRView process (<ph name="PROCESS_ID">$1<ex>12345</ex></ph>) on another computer (<ph name="HOST_NAME">$2<ex>example.com</ex></ph>). EHRView has locked the profile so that it doesn't get corrupted. If you are sure no other processes are using this profile, you can unlock the profile and relaunch EHRView.
+          The profile appears to be in use by another EHRView process (<ph name="PROCESS_ID">$1<ex>12345</ex></ph>) on another computer (<ph name="HOST_NAME">$2<ex>example.com</ex></ph>). Chromium has locked the profile so that it doesn't get corrupted. If you are sure no other processes are using this profile, you can unlock the profile and relaunch Chromium.
         </message>
       </if>
 
@@ -801,28 +801,28 @@ EHRView is unable to recover your settings.
         <message name="IDS_INBOUND_MDNS_RULE_NAME" desc="The name of the firewall rule allowing inbound mDNS traffic.">
           EHRView (mDNS-In)
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA" desc="Unused in Chromium builds" translateable="false">
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY" desc="Unused in Chromium builds" translateable="false">
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV" desc="Unused in Chromium builds" translateable="false">
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION" desc="The description of the firewall rule allowing inbound mDNS traffic.">
           Inbound rule for EHRView to allow mDNS traffic.
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA" desc="Unused in Chromium builds" translateable="false">
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY" desc="Unused in Chromium builds" translateable="false">
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV" desc="Unused in EHRView builds" translateable="false">
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV" desc="Unused in Chromium builds" translateable="false">
         </message>
       </if>
 
       <if expr="not is_android">
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Google to EHRView.">
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Google to Chromium.">
           If an image doesn’t have a useful description, EHRView will try to provide one for you. To create descriptions, images are sent to Google. You can turn this off in settings at any time.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Google to EHRView just once.">
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Google to Chromium just once.">
           If an image doesn’t have a useful description, EHRView will try to provide one for you. To create descriptions, images are sent to Google.
         </message>
         <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Google to Chrome.">
@@ -874,10 +874,10 @@ EHRView is unable to recover your settings.
       </if>
 
       <!-- Cannot update when other instances open dialog -->
-      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_TITLE" desc="The title for the dialog shown when multiple copies of EHRView are running during a requested update.">
+      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_TITLE" desc="The title for the dialog shown when multiple copies of Chromium are running during a requested update.">
         Quit all copies of EHRView.
       </message>
-      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_MESSAGE" desc="The message for the dialog shown when multiple copies of EHRView are running during a requested update.">
+      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_MESSAGE" desc="The message for the dialog shown when multiple copies of Chromium are running during a requested update.">
         Other copies of EHRView are running. To update, close them.
       </message>
       <message name="IDS_UPDATE_OTHER_INSTANCES_OTHER_USER_AUTHENTICATION_PROMPT" desc="The window title for the other instances dialog.">
@@ -942,15 +942,15 @@ EHRView is unable to recover your settings.
       </message>
 
       <!-- Critical Notification bubble -->
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and EHRView must restart to install it. It counts down from # seconds and then EHRView automatically restarts.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and Chromium must restart to install it. It counts down from # seconds and then Chromium automatically restarts.">
         {SECONDS, plural,
          =1 {EHRView will restart in 1 second}
          other {EHRView will restart in # seconds}}
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and EHRView must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Chromium must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
         Please restart EHRView now
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and EHRView must restart to install it.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Chromium must restart to install it.">
         A special security update for EHRView was just applied. Restart now and we'll restore your tabs.
       </message>
 
@@ -1003,7 +1003,7 @@ EHRView is unable to recover your settings.
 
       <!-- Welcome page (chrome://welcome) strings -->
       <if expr="not chromeos and not is_android">
-        <message name="IDS_WELCOME_HEADER" desc="A message which will appear as the header on the Welcome UI if the user has never run EHRView before.">
+        <message name="IDS_WELCOME_HEADER" desc="A message which will appear as the header on the Welcome UI if the user has never run Chromium before.">
           Welcome to EHRView
         </message>
       </if>
@@ -1058,15 +1058,15 @@ EHRView is unable to recover your settings.
           </message>
         </if>
       </if>
-      <!-- EHRView launch blocking dialog. -->
+      <!-- Chromium launch blocking dialog. -->
       <if expr="not is_android and not chromeos">
-         <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of EHRView launch blocking dialog for machine level user cloud policy enrollment.">
+         <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of Chromium launch blocking dialog for machine level user cloud policy enrollment.">
           Launching EHRView...
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of EHRView launch blocking dialog when machine level user cloud policy enrollment failed.">
+        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of Chromium launch blocking dialog when machine level user cloud policy enrollment failed.">
           Couldn't launch EHRView. Try again.
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of EHRView launch blocking dialog.">
+        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of Chromium launch blocking dialog.">
           Relaunch EHRView
         </message>
       </if>

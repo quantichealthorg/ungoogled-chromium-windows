@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Settings-specific EHRView strings (included from chromium_strings.grd). -->
+<!-- Settings-specific Chromium strings (included from chromium_strings.grd). -->
 <grit-part>
   <!-- About Page -->
-  <message name="IDS_SETTINGS_ABOUT_PROGRAM" desc="Menu title for the About EHRView page.">
+  <message name="IDS_SETTINGS_ABOUT_PROGRAM" desc="Menu title for the About Chromium page.">
     About EHRView
   </message>
   <message name="IDS_SETTINGS_GET_HELP_USING_CHROME" desc="Text of the button which takes the user to the Chrome help page.">
     Get help with EHRView
   </message>
   <if expr="not chromeos">
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating EHRView">
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating Chromium">
       Updating EHRView
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING_PERCENT" desc="Status label: Updating EHRView (90%)">
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING_PERCENT" desc="Status label: Updating Chromium (90%)">
       Updating EHRView (<ph name="PROGRESS_PERCENT">$1<ex>90%</ex></ph>)
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated EHRView">
+    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated Chromium">
       Nearly up to date! Relaunch EHRView to finish updating.
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UP_TO_DATE" desc="Status label: Already up to date (EHRView)">
+    <message name="IDS_SETTINGS_UPGRADE_UP_TO_DATE" desc="Status label: Already up to date (Chromium)">
       EHRView is up to date
     </message>
   </if>
   <if expr="chromeos">
-    <message name="IDS_SETTINGS_ABOUT_OS" desc="Menu title for the About EHRView OS page.">
+    <message name="IDS_SETTINGS_ABOUT_OS" desc="Menu title for the About Chromium OS page.">
       About EHRView OS
     </message>
-    <message name="IDS_SETTINGS_ABOUT_SEE_OS_SETTINGS_FOR_UPDATE_MESSAGE" desc="Message shown to users on EHRView browser settings which alerts the user that OS updates are shown in EHRView OS settings.">
+    <message name="IDS_SETTINGS_ABOUT_SEE_OS_SETTINGS_FOR_UPDATE_MESSAGE" desc="Message shown to users on Chromium browser settings which alerts the user that OS updates are shown in Chromium OS settings.">
       To see if your device is up to date, go to <ph name="LINK_BEGIN">&lt;a href="chrome://os-settings/help"&gt;</ph>EHRView OS Settings<ph name="LINK_END">&lt;/a&gt;</ph>
     </message>
     <message name="IDS_SETTINGS_GET_HELP_USING_CHROME_OS" desc="Text of the button which takes the user to the Chrome help page.">
@@ -40,7 +40,7 @@
   </message>
 
   <!-- Autofill Page -->
-  <message name="IDS_SETTINGS_GOOGLE_PAYMENTS_CACHED" desc="Label that will be used to show that a credit card comes from Google Pay and is saved locally. This should follow the casing of the 'Google Pay' and 'Chrome' brands. 'Copied to EHRView' is short for 'The credit card is copied to EHRView'. 'Google Pay' should not be translated as it is the product name.">
+  <message name="IDS_SETTINGS_GOOGLE_PAYMENTS_CACHED" desc="Label that will be used to show that a credit card comes from Google Pay and is saved locally. This should follow the casing of the 'Google Pay' and 'Chrome' brands. 'Copied to Chromium' is short for 'The credit card is copied to Chromium'. 'Google Pay' should not be translated as it is the product name.">
     Google Pay (copied to EHRView)
   </message>
 
@@ -55,7 +55,7 @@
     <message name="IDS_SETTINGS_DEFAULT_BROWSER_ERROR" desc="The text displayed when Chrome cannot determine or set the default browser">
       EHRView cannot determine or set the default browser
     </message>
-    <message name="IDS_SETTINGS_DEFAULT_BROWSER_SECONDARY" desc="The text displayed when EHRView is installed in side-by-side mode, which does not support setting as the default browser.">
+    <message name="IDS_SETTINGS_DEFAULT_BROWSER_SECONDARY" desc="The text displayed when Chromium is installed in side-by-side mode, which does not support setting as the default browser.">
       This is a secondary installation of EHRView, and cannot be made your default browser.
     </message>
   </if>
@@ -101,7 +101,7 @@
   <message name="IDS_SETTINGS_PROFILE_NAME_AND_PICTURE" desc="Label of the link that takes you to the page to edit your name and picture for your chrome profile.">
     EHRView name and picture
   </message>
-  <message name="IDS_SETTINGS_PEOPLE_SIGN_IN_PROMPT_SECONDARY_WITH_ACCOUNT" desc="The secondary text displayed to prompt users to enable sync for an account that is alredy present in EHRView.">
+  <message name="IDS_SETTINGS_PEOPLE_SIGN_IN_PROMPT_SECONDARY_WITH_ACCOUNT" desc="The secondary text displayed to prompt users to enable sync for an account that is alredy present in Chromium.">
     Sync and personalize EHRView across your devices
   </message>
 </if>
@@ -120,10 +120,10 @@
     EHRView will access your Drive to make suggestions in the address bar
   </message>
 <if expr="not chromeos">
-    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_NO_ACCOUNT" desc="The text displayed to prompt users to sign in to EHRView.">
+    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_NO_ACCOUNT" desc="The text displayed to prompt users to sign in to Chromium.">
       Sign in to sync and personalize EHRView across your devices
     </message>
-    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_ACCOUNT" desc="The text displayed to prompt users to enable sync for an account that is alredy present in EHRView.">
+    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_ACCOUNT" desc="The text displayed to prompt users to enable sync for an account that is alredy present in Chromium.">
       Sync and personalize EHRView across your devices
     </message>
 </if>
